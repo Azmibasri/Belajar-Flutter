@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/home.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -9,6 +8,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(debugShowCheckedModeBanner: false, home: Home(),title: 'Test',);
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+      title: 'Test',
+    );
   }
 }
